@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:plants_shop/features/presentation/pages/home.dart';
 
 void main() {
   runApp(const PlantApp());
@@ -11,6 +12,7 @@ class PlantApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
+      home: HomeScreen(),
     );
   }
 }
